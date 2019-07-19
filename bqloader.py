@@ -4,8 +4,8 @@ from apiclient import discovery
 import logging
 
 class BQLoader():
-    project_id = ''
-    dataset_id = 'test'
+    project_id = 'business-intelligence-240201'
+    dataset_id = 'binaryGAclickstreampoc'
     table_id = 'gadatapy4'
 
     table_schema= [
