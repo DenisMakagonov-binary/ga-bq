@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3bd37aa-a336-472c-956a-b207b573d0a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bqloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/bqloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gabq.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gabq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-intelligence-240201/app.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-intelligence-240201/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-intelligence-240201/index.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-intelligence-240201/main.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,21 +25,9 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business-intelligence-240201/index.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business-intelligence-240201/app.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1396" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -65,11 +54,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_bq_table.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="270">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding>
                 <element signature="e#23#37#0" expanded="true" />
               </folding>
@@ -124,16 +113,6 @@
               <item name="business-intelligence-240201" type="b2602c69:ProjectViewProjectNode" />
               <item name="business-intelligence-240201" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="business-intelligence-240201" type="b2602c69:ProjectViewProjectNode" />
-              <item name="business-intelligence-240201" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="business-intelligence-240201" type="b2602c69:ProjectViewProjectNode" />
-              <item name="business-intelligence-240201" type="462c0819:PsiDirectoryNode" />
-              <item name="uritemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -143,6 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -172,7 +152,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -223,11 +202,6 @@
     <entry file="file://$PROJECT_DIR$/business-intelligence-240201/app.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1396" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -257,13 +231,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_bq_table.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="270">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
             <element signature="e#23#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
