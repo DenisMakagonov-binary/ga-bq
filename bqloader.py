@@ -6,7 +6,7 @@ import logging
 class BQLoader():
     project_id = 'business-intelligence-240201'
     dataset_id = 'binaryGAclickstreampoc'
-    table_id = 'gadatapy4'
+    table_id = 'gadatapy4_v2'
 
     table_schema= [
         {
@@ -207,7 +207,7 @@ class BQLoader():
         table_ref = {'tableId': self.table_id,
                      'datasetId': self.dataset_id,
                      'projectId': self.project_id}
-        table = {'tableReference': table_ref, 'schema':{'fields':self.table_schema}}
+        table = {'tableReference': table_ref, 'schema':{'fields':self.table_schema},'TimePartitioning':{'type':'DAY'}}
 
         table = self.bigquery.tables().insert(
             body=table, datasetId=self.dataset_id, projectId=self.project_id).execute()
