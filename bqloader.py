@@ -6,7 +6,7 @@ import logging
 class BQLoader():
     project_id = 'business-intelligence-240201'
     dataset_id = 'binaryGAclickstreampoc'
-    table_id = 'gadatapy4_v2'
+    table_id = 'gadatapy4_v3'
 
     table_schema= [
         {

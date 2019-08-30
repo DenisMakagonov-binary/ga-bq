@@ -3,7 +3,7 @@ api_version: 1
 threadsafe: yes
 service: ga-tracker
 application: business-intelligence-240201
-version: 3
+version: 4
 
 
 handlers:
