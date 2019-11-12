@@ -7,8 +7,8 @@ from google.appengine.api import taskqueue
 
 from bqloader import BQLoader
 
-
-
+#ga-tracker-dot-business-intelligence-240201.appspot.com/collect?v=1&_v=j79&a=1782300344&t=pageview&_s=1&dl=https%3A%2F%2Fderiv.app%2F&ul=en-gb&de=UTF-8&dt=Trade%20%7C%20Deriv&sd=24-bit&sr=1440x1282&vp=1440x1282&je=0&_u=SCCAAEADQ~&jid=&gjid=&cid=1496860339.1563518559&tid=UA-139927388-1&_gid=1524347747.1573530585&gtm=2wgav3NF7884S&cd2=EN&z=1012091324&cd4=1496860339.1563518559
+#http://localhost:9080/collect?v=1&_v=j79&a=1782300344&t=pageview&_s=1&dl=https%3A%2F%2Fderiv.app%2F&ul=en-gb&de=UTF-8&dt=Trade%20%7C%20Deriv&sd=24-bit&sr=1440x1282&vp=1440x1282&je=0&_u=SCCAAEADQ~&jid=&gjid=&cid=1496860339.1563518559&tid=UA-139927388-1&_gid=1524347747.1573530585&gtm=2wgav3NF7884S&cd2=EN&z=1012091324&cd4=1496860339.1563518559
 class MainHandler(webapp2.RequestHandler):
 
     def get(self):
@@ -20,9 +20,9 @@ class MainHandler(webapp2.RequestHandler):
 
             bq_loader = BQLoader()
             rows=[]
-
+#TODO change insert id on clientid+timestamp
             for task in tasks:
-                rows.append({'insertId': task.payload, 'json':json.loads(task.payload)})
+                rows.append({'insertId': task.payload[-100:-1]+str(task._eta_usec), 'json':json.loads(task.payload)})
 
             logging.info(rows)
 
