@@ -22,7 +22,7 @@ Note: Ecomerce data is currently not supported, it will be added soon
 ## Tuning
 
 In case you have more than 1000 events per minute you may duplicate number of cron workers by copy pasting them in cron.yaml, e.g. something like this:
-
+and run ```gcloud app deploy cron.yaml```
 ```
 cron:
 - description: process queue

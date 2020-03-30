@@ -3,3 +3,23 @@ cron:
   url: /tasks/process_queue
   schedule: every 1 mins
   target: ga-tracker
+
+- description: process queue
+  url: /tasks/process_queue
+  schedule: every 1 mins
+  target: ga-tracker
+
+- description: process queue
+  url: /tasks/process_queue
+  schedule: every 1 mins
+  target: ga-tracker
+
+- description: process queue
+  url: /tasks/process_queue
+  schedule: every 1 mins
+  target: ga-tracker
+
+- description: process queue
+  url: /tasks/process_queue
+  schedule: every 1 mins
+  target: ga-tracker
