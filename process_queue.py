@@ -23,7 +23,6 @@ class MainHandler(webapp2.RequestHandler):
 
             bq_loader = BQLoader()
             rows=[]
-#TODO change insert id on clientid+timestamp
             for task in tasks:
                 #rows.append({'insertId': task.payload[-100:-1]+str(task._eta_usec), 'json':json.loads(task.payload)})
                 rows.append({'insertId': hashlib.md5(str(task.payload).encode('utf-8')).hexdigest(), 'json': json.loads(task.payload)})
